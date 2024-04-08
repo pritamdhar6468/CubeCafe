@@ -1,0 +1,35 @@
+.hero-img {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../../assets/pasta.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    top: 40%;
+    left: 6rem;
+}
+
+.hero-content p {
+    font-size: 20px;
+}
+
+.cube-cafe {
+    font-family: 'Babylonica', cursive;
+    text-transform: none;
+    font-size: 8rem;
+    color: yellow;
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero-content {
+        top: 20%;
+        left: 1rem;
+        right: 1rem;
+    }
+}
